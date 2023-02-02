@@ -38,7 +38,7 @@ $sources = $onvif->getSources();
 $profileToken = $sources[0][0]['profiletoken'];
 
 while ( 1 ) {
-	$keypress = fgets( $stdin ); // o'qimni o'qish
+	$keypress = fgets( $stdin );
   	
   	if ( $keypress ) {
     	$key = translateKeypress( $keypress );
